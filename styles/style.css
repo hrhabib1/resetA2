@@ -1,6 +1,41 @@
-body{
+:root{
     background-color: black;
 }
 h1{
     color: aliceblue;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px ;
+    padding-inline: 5%;
+}
+.navbar h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #E6533C;
+    font-style: italic;
+      
+}
+.tab{
+    border: 1px solid rgb(46, 45, 45);
+    padding: 5px;
+    border-radius:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+.tab a{
+    text-decoration: none;
+    color: bisque;
+}
+#home{
+    background-color: #E6533C;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-left: -5px;
 }
